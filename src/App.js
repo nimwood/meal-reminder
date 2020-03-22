@@ -1,15 +1,15 @@
 import React from 'react'
 import './App.css'
-import Album from './Album'
+import MealReminder from './MealReminder'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Album />
+        <MealReminder />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
