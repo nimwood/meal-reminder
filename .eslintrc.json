@@ -24,6 +24,8 @@
     ],
     "rules": {
         "semi": ["error", "never"],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "comma-dangle": "off",
+        "react/forbid-prop-types": "off"
     }
 }
