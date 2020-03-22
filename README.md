@@ -30,7 +30,21 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Pre-requisites:
+- [firebase-cli](https://firebase.google.com/docs/cli)
+- Permissions to deploy to the project
+
+1. Build the production files
+
+```npm run build```
+
+2. Deploy with firebase
+
+```firebase deploy```
+
+This will deploy to two hosting sites
+- https://meal-reminder-3fa62.firebaseapp.com
+- https://meal-reminder-3fa62.web.com
 
 ### Analyzing the Bundle Size
 
