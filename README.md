@@ -1,6 +1,29 @@
 # meal-reminder
 A web app that notifies you when you should eat
 
+## Development instructions
+
+1. Install node_modules with `npm install`
+2. Serve locally with `npm start`
+
+## Deployment
+
+Pre-requisites:
+- [firebase-cli](https://firebase.google.com/docs/cli)
+- Permissions to deploy to the project
+
+1. Build the production files
+
+```npm run build```
+
+2. Deploy with firebase
+
+```firebase deploy```
+
+This will deploy to two hosting sites
+- https://meal-reminder-3fa62.firebaseapp.com
+- https://meal-reminder-3fa62.web.com
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -27,24 +50,6 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-Pre-requisites:
-- [firebase-cli](https://firebase.google.com/docs/cli)
-- Permissions to deploy to the project
-
-1. Build the production files
-
-```npm run build```
-
-2. Deploy with firebase
-
-```firebase deploy```
-
-This will deploy to two hosting sites
-- https://meal-reminder-3fa62.firebaseapp.com
-- https://meal-reminder-3fa62.web.com
 
 ### Analyzing the Bundle Size
 
